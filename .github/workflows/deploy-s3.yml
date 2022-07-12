@@ -34,4 +34,4 @@ jobs:
           AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           SOURCE_DIR: "dist"
-          DEST_DIR: "/"
+          DEST_DIR: ""
